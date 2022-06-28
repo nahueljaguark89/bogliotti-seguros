@@ -1,18 +1,18 @@
 @font-face {
     font-family: Touche-regular;
-    src: url(fuentes/Toucheegular.ttf);
+    src: url(assets\fuentes\ToucheRegular.ttf);
   }
 @font-face {
     font-family: Touche-light;
-    src: url(fuentes/ToucheLight.ttf);
+    src: url(assets\fuentes/ToucheLight.ttf);
 }
 @font-face {
     font-family: Touche-semibold;
-    src: url(fuentes/ToucheSemibold.ttf);
+    src: url(assets\fuentes/ToucheSemibold.ttf);
 }
 @font-face {
     font-family: Touche-bold;
-    src: url(fuentes/ToucheBold.ttf);
+    src: url(assets\fuentes/ToucheBold.ttf);
 }
 
 body {
@@ -44,7 +44,7 @@ h3 {
 }
 
 .encabezado-foto {
-    background-image: url(images/banner-facebook.jpg);
+    background-image: url(assets\images\banner-facebook.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position:top;
