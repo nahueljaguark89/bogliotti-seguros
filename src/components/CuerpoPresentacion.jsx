@@ -14,7 +14,7 @@ export const CuerpoPresentación = () => {
 
             <div className="tarjeta">
                 <div className="circulo">
-                    <img src="../icons\family.svg"></img>
+                    <img src="icons/family.svg"></img>
                 </div>
                 <h3>Para Tu Familia</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
@@ -22,7 +22,7 @@ export const CuerpoPresentación = () => {
             </div>
             <div className="tarjeta">
                 <div className="circulo">
-                <img src="../icons\car.svg"></img>
+                <img src="icons/car.svg"></img>
                 </div>
                 <h3>Para Tu Vehículo</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
@@ -30,7 +30,7 @@ export const CuerpoPresentación = () => {
             </div>
             <div className="tarjeta">
                 <div className="circulo">
-                    <img src="../icons\home.svg"></img>
+                    <img src="icons/home.svg"></img>
                 </div>
                 <h3>Para Tu Futuro</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
