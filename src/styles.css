@@ -1,18 +1,18 @@
 @font-face {
     font-family: Touche-regular;
-    src: url(fuentes/Touche\ W03\ Regular.ttf);
+    src: url(fuentes/Toucheegular.ttf);
   }
 @font-face {
     font-family: Touche-light;
-    src: url(fuentes/Touche\ W03\ Light.ttf);
+    src: url(fuentes/ToucheLight.ttf);
 }
 @font-face {
     font-family: Touche-semibold;
-    src: url(fuentes/Touche\ W03\ Semibold.ttf);
+    src: url(fuentes/ToucheSemibold.ttf);
 }
 @font-face {
     font-family: Touche-bold;
-    src: url(fuentes/Touche\ W03\ Bold.ttf);
+    src: url(fuentes/ToucheBold.ttf);
 }
 
 body {
