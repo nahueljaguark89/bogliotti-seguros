@@ -7,7 +7,7 @@ export const Encabezado = () => {
             </div>
 
             <div className="encabezado-logo">
-                <img src="src/assets/images/logo-blanco.png"></img>
+                <img src="assets/images/logo-blanco.png"></img>
             </div>
 
             
