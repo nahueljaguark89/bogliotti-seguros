@@ -2,7 +2,7 @@ export const QuienesSomos = () => {
     return(
 
         <>
-        <div className="qsomos">
+        <div id="qsomos" className="qsomos">
 
            <div className="qsomos-parrafo">
                 <h1>Sobre Nosotros</h1>

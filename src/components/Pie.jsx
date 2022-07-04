@@ -7,7 +7,7 @@ export const Pie = () => {
            <p>Esto es un pie de Página</p>
            <p>Home | Quienes Somos | Contacto</p>
            <p>Teléfono | Mail | Dirección</p>
-           <p>Iconos Redes Sociales</p>
+           <p><i className="fa-brands fa-instagram"></i> <i className="fa-brands fa-facebook-square"></i></p>
 
         </div>
 

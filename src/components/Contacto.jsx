@@ -2,7 +2,7 @@ export const Contacto = () => {
     return(
 
         <>
-        <div className="contacto">
+        <div id="contacto" className="contacto">
 
            <div className="formulario">
                 <h1>Escribinos</h1>

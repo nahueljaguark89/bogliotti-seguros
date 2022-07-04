@@ -1,10 +1,24 @@
+import { useEffect, useState } from "react";
+
+    
+
 export const Encabezado = () => {
+
+    const [navbarOpen, setNavbarOpen] = useState(false);
+
+
+    const handleToggleMenu = () => {
+        setNavbarOpen(prev => !prev);
+    }
+
+    
+
     return(
         <>
 
-            <div className="menu-boton">
+            <div className="menu-boton" >
                     
-                <a href="#" id="menu_on">
+                <a id="menu_on" onClick={handleToggleMenu} className={`menuNav ${navbarOpen ? "visible_menu" : ""}`}>
                     <span></span>
                     <span></span>
                     <span></span>
@@ -25,6 +39,23 @@ export const Encabezado = () => {
                 
 
             </div>
+
+
+            <div className={`menuNav ${navbarOpen ? "visible_menu" : ""}`}>
+                <nav >	
+                    <div id="close_menu" onClick={ handleToggleMenu } >
+                        ×
+                    </div>
+                    <ul>
+                        <li><a href="#">Inicio</a></li>
+                        <li><a href="#qsomos">Quienes Somos</a></li>
+                        <li><a href="#contacto">Contacto</a></li>
+                        <li><a href="#"><i className="fa-brands fa-instagram"></i></a> <a href="#"><i className="fa-brands fa-facebook-square"></i></a></li>
+                    </ul>
+                </nav>
+
+            </div>
+
         </>
     )
 }

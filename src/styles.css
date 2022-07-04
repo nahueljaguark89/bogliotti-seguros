@@ -15,6 +15,10 @@
     src: url(../assets\fuentes/ToucheBold.ttf);
 }
 
+html {
+    scroll-behavior: smooth;
+  }
+
 body {
     font-family: Touche-regular,'Trebuchet MS', Arial, sans-serif;
     color: rgb(46, 46, 46);
@@ -55,6 +59,7 @@ h3 {
 	width: 30px;
 	height: 20px;
 	position: relative;
+    cursor: pointer;
 }
  
 #menu_on span{
@@ -103,18 +108,28 @@ nav {
 	overflow-y: auto;
 }
 
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+}
+
+nav ul li:hover {
+    border-bottom-color:rgba(255,255,255,0.4);
+}
+
 nav a {
-	display:block;
+	display:inline-block;
 	text-decoration: none;
 	padding: 10px;
 	color: rgba(255,255,255,0.75);
-	border-bottom: 1px solid rgba(255,255,255,0.2);
 	transition: all ease 0.25s;
 }
  
 nav a:hover{
 	color: rgba(255,255,255,1);
-	border-bottom-color:rgba(255,255,255,0.4);
 }
 
 .visible_menu nav{
@@ -336,4 +351,8 @@ nav a:hover{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+i {
+    font-size: 1.5rem;
 }
