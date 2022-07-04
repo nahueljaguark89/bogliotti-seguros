@@ -47,9 +47,9 @@ export const Encabezado = () => {
                         ×
                     </div>
                     <ul>
-                        <li><a href="#">Inicio</a></li>
-                        <li><a href="#qsomos">Quienes Somos</a></li>
-                        <li><a href="#contacto">Contacto</a></li>
+                        <li><a href="#" onClick={handleToggleMenu} >Inicio</a></li>
+                        <li><a href="#qsomos" onClick={handleToggleMenu} >Quienes Somos</a></li>
+                        <li><a href="#contacto" onClick={handleToggleMenu} >Contacto</a></li>
                         <li><a href="#"><i className="fa-brands fa-instagram"></i></a> <a href="#"><i className="fa-brands fa-facebook-square"></i></a></li>
                     </ul>
                 </nav>
