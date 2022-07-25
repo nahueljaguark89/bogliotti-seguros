@@ -44,13 +44,14 @@ export const Encabezado = () => {
             <div className={`menuNav ${navbarOpen ? "visible_menu" : ""}`}>
                 <nav >	
                     <div id="close_menu" onClick={ handleToggleMenu } >
-                        ×
+                        &times;
                     </div>
                     <ul>
                         <li><a href="#" onClick={handleToggleMenu} >Inicio</a></li>
+                        <li><a href="#siniestros" onClick={handleToggleMenu} >Siniestros</a></li>
                         <li><a href="#qsomos" onClick={handleToggleMenu} >Quienes Somos</a></li>
                         <li><a href="#contacto" onClick={handleToggleMenu} >Contacto</a></li>
-                        <li><a href="#"><i className="fa-brands fa-instagram"></i></a> <a href="#"><i className="fa-brands fa-facebook-square"></i></a></li>
+                        <li><a href="https://www.instagram.com/ferbogliottiseguros/" target="blank" ><i className="fa-brands fa-instagram"></i></a> <a href="https://www.facebook.com/fernandabogliottiseguros" target="blank"><i className="fa-brands fa-facebook-square"></i></a></li>
                     </ul>
                 </nav>
 
