@@ -10,20 +10,23 @@ export const QuienesSomos = () => {
 
         </div>
 
-
+        
         <div id="qsomos" className="qsomos">
-
-           <div className="qsomos-parrafo">
+            
+            <div className="qsomos-parrafo">
                 <hr/>
                 <h1>Sobre Nosotros</h1>
                 <p>Más de 15 años cuidando tu patrimonio.</p>
-                <p>Trabajamos con las mejores aseguradoras para brindarte el mejor servicio y cuidar tu patrimonio, acompañándote en todo el proceso.</p>
-                <p>Nos encontramos en Av. Int. Varela 332, centro de Campana, frente a plaza Eduardo Costa. 
-                <br/><img src="assets/icons/pin.svg"></img><a href="#mapa">Ver mapa</a>
-                <br/>De Lunes a Viernes de 9 a 16 hs.
-                <br/>3489 340922
-                <br/>administracion@bogliottiseguros.com.ar</p>
-
+                <p>Trabajamos con las mejores aseguradoras para brindarte el mejor servicio, acompañándote en todo el proceso.</p>
+                <br/>
+            </div>
+            <div className="qsomos-datos">
+                <ul>
+                    <li>Av. Int. Varela 332, Campana. <img src="assets/icons/pin.svg"></img><a href="#mapa">Ver mapa</a></li>
+                    <li>Horario: Lunes a Viernes de 9 a 16 hs.</li>
+                    <li>Tel: 3489 340922</li>
+                    <li>administracion@bogliottiseguros.com.ar</li>
+                </ul>       
            </div>
 
 

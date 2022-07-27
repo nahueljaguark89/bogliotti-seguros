@@ -229,6 +229,10 @@ nav a:hover{
     background-blend-mode: darken;
 }
 
+#siniestros {
+    scroll-margin-top: 2rem;
+}
+
 .siniestros-parrafo {
     padding: 2% 7% 2% 7%;
     color: white;
@@ -251,18 +255,36 @@ nav a:hover{
 .qsomos {
     width: 100%;
     margin: 3rem auto 2rem auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%,20rem), 1fr));
+}
+
+#qsomos {
+    scroll-margin-top: 2rem;
 }
 
 .qsomos-parrafo {
     padding: 2% 7% 2% 7%;
 }
 
-.qsomos-parrafo img {
+.qsomos-datos {
+    padding: 5% 7% 2% 2%;
+}
+
+.qsomos-datos img {
     width: 1rem;
 }
 
-.qsomos-parrafo a {
+.qsomos-datos a {
     color: rgb(46, 46, 46);
+}
+
+.qsomos-datos {
+    background-color: lightgray;
+}
+
+.qsomos-datos li {
+    margin-top: 1rem;
 }
 
 .qsomos-imagenes {
@@ -326,8 +348,32 @@ nav a:hover{
 
  .formulario input:focus {
     outline: none;
-    
+    border-bottom: 2px solid #6e67b7;
  }
+
+ .formulario textarea {
+    width: 100%;
+    min-height: 4rem;
+    border: 0;
+    border-bottom: 2px solid gray;
+    padding: 1rem 0rem;
+    font-size: 1rem;
+    color: rgb(46, 46, 46);
+    font-family: Touche-regular,'Trebuchet MS', Arial, sans-serif;
+}
+
+.formulario textarea::placeholder {
+    color: rgb(121, 121, 121);
+    font-size: 1rem;
+    font-family: Touche-regular,'Trebuchet MS', Arial, sans-serif;
+ }
+
+ .formulario textarea:focus {
+    outline: none;
+    border-bottom: 2px solid #6e67b7;
+ }
+
+
 
 .formulario button {
     margin-top: 1rem;
